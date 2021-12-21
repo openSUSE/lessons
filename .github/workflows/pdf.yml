@@ -1,0 +1,25 @@
+name: Generate pdf
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    name: Generate pdf
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+      - name: Install requirementes
+        run: "pip install -r requirementes.txt"
+      - name: Build pdf
+        env:
+          ENABLE_PDF_EXPORT: 1
+        run: "mkdocs build"
+      - name: Publish result
+        uses: actions/upload-artifact@v2
+        with:
+          name: lesson-plan.pdf
+          path: /home/runner/work/lessons/site/lesson-plan.pdf
+

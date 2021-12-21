@@ -1,0 +1,27 @@
+site_name: Mitosomat Dokumentation
+theme:
+  name: material
+  features:
+    - navigation.tracking
+    - navigation.sections
+  palette:
+      scheme: preference
+      primary: green
+      accent: red
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+plugins:
+  - with-pdf:
+      author: openSUSE contributors
+      copyright: Copyright (C) 2021 openSUSE contributors.
+      cover: true
+      cover_title: Linux Lesson Plan
+      cover_subtitle: Free and Open Source Software
+      render_js: false
+      enabled_if_env: ENABLE_PDF_EXPORT
+      output_path: ./lesson-plan.pdf
+      toc_title: Contents
+      back_cover: false
+
