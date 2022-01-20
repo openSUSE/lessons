@@ -1,3 +1,22 @@
+# openSUSE Lesson Plan
+[![Generate pdf](https://github.com/KaratekHD/lessons/actions/workflows/pdf.yml/badge.svg)](https://github.com/KaratekHD/lessons/actions/workflows/pdf.yml)
+
+This repository cotains the source code for the openSUSE Lesson Plan.
+
+## How to use this repository
+The current build of the  PDF is avaliable in GitHub Actions. Visit https://github.com/KaratekHD/lessons/actions/workflows/pdf.yml, click the latest entry with a green  checkmark next to it and click on `lesson-plan.pdf` down at the bottom. This will give you a zip file containing the PDF. This is not an ideal solution, if you have any suggestions on how to improve this Action feel free to open a PR.
+## Setting up your build environment
+1. Clone this repository.
+2. Install Pytohn and Pip: `sudo zypper install python38-base python38-pip`
+3. Install Pipenv: `pip install pipenv`
+4. Install the requirements using Pipenv - This will set up a virtual environment for you so that you can't mess with your system Python libraries: `pipenv install`
+5. You can now build the PDF document locally by running `ENABLE_PDF_EXPORT=1 pipenv run mkdocs build`
+
+## Editing the sources
+Place new documents in the `/docs` directory using markdown files. 
+You can see your changes by running `ENABLE_PDF_EXPORT=1 pipenv run`.
+Once you're ready to propose your changes, make a PR to this repo. 
+
 ## License
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
