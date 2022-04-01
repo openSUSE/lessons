@@ -7,7 +7,7 @@ This project is a collaborative effort for designing and preparing lesson plans 
 The developers of this content are interested in knowing how it is being used. Please send us feedback in comments or contribute with a pull request, or open up an issue. We plan to run a contest after all the content is completed.
 
 ## How to use this repository
-The current build of the  PDF is avaliable in GitHub Actions. Visit https://github.com/KaratekHD/lessons/actions/workflows/pdf.yml, click the latest entry with a green  checkmark next to it and click on `lesson-plan.pdf` down at the bottom. This will give you a zip file containing the PDF. This is not an ideal solution, if you have any suggestions on how to improve this Action feel free to open a PR.
+The current build of the  PDF is avaliable in GitHub Actions. Visit https://github.com/openSUSE/lessons/actions/workflows/pdf.yml, click the latest entry with a green  checkmark next to it and click on `lesson-plan.pdf` down at the bottom. This will give you a zip file containing the PDF. This is not an ideal solution, if you have any suggestions on how to improve this Action feel free to open a PR.
 ## Setting up your build environment
 1. Clone this repository.
 2. Install Pytohn and Pip: `sudo zypper install python38-base python38-pip`
