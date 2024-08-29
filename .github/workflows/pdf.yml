@@ -1,4 +1,4 @@
-name: Generate PDF Develop
+name: 📚 Generate PDF Develop
 on:
   push:
     branches: [ main ]

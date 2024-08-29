@@ -1,6 +1,7 @@
 # openSUSE Lesson Plan
 
-[![Generate pdf](https://github.com/KaratekHD/lessons/actions/workflows/pdf.yml/badge.svg)](https://github.com/KaratekHD/lessons/actions/workflows/pdf.yml)
+[![📚 Generate PDF Develop](https://github.com/openSUSE/lessons/actions/workflows/pdf.yml/badge.svg)](https://github.com/openSUSE/lessons/actions/workflows/pdf.yml)
+[![📚 Publish - openSUSE Lessons Doc Website](https://github.com/openSUSE/lessons/actions/workflows/mkdocs-publish.yml/badge.svg)](https://github.com/openSUSE/lessons/actions/workflows/mkdocs-publish.yml)
 
 This project is a collaborative effort for designing and preparing lesson plans for teachers, home educators, students and self-learners. The lesson plans focus on segments of open-source software development, culture and contribution. The material is helpful for curriculums involving the teaching of IT courses in primary, secondary and higher education.
 

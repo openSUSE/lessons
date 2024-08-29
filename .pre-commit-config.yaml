@@ -26,5 +26,5 @@ repos:
     hooks:
     - id: mdformat
       additional_dependencies:
-      - mdformat-gfm
-      - mdformat-black
+      - mdformat-admon
+      - mdformat-mkdocs[recommended]
