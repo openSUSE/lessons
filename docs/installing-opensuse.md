@@ -2,7 +2,6 @@
 
 ## Concepts Learned
 
-- How to install Linux
 - How to install openSUSE
 
 ## Standards
@@ -38,7 +37,7 @@
 
 - Watch [openSUSE: A Beautiful Linux Distro](https://youtu.be/yf3b6b1iHIA) as a class the to understand how to download and install openSUSE. Discuss the differences between Tumbleweed and Leap.
 - Watch the first 4 minutes of [openSUSE Leap 15.2 | Review and Final Thoughts](https://youtu.be/wP4IvrsdZZo) and discuss the reasons for selecting different types of software options.
-- Download an image of openSUSE from; https://get.opensuse.org/
+- Download an image of openSUSE from; <https://get.opensuse.org/>
 - Use a USB/microUSB and application/commands of your choice to write an image
 - Have students read and discuss [Rolling vs. Point Release Linux Distros – Which is better?](https://www.fosslinux.com/2805/linux-rolling-release-vs-point-release-and-which-is-better.htm)
 

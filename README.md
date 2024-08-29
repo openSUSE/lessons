@@ -10,7 +10,7 @@ The developers of this content are interested in knowing how it is being used. P
 
 ## How to use this repository
 
-The current build of the  PDF is avaliable in GitHub Actions. Visit https://github.com/openSUSE/lessons/actions/workflows/pdf.yml, click the latest entry with a green  checkmark next to it and click on `lesson-plan.pdf` down at the bottom. This will give you a zip file containing the PDF. This is not an ideal solution, if you have any suggestions on how to improve this Action feel free to open a PR.
+The current build of the  PDF is avaliable in GitHub Actions. Visit <https://github.com/openSUSE/lessons/actions/workflows/pdf.yml>, click the latest entry with a green  checkmark next to it and click on `lesson-plan.pdf` down at the bottom. This will give you a zip file containing the PDF. This is not an ideal solution, if you have any suggestions on how to improve this Action feel free to open a PR.
 
 ## Setting up your build environment
 
@@ -28,4 +28,4 @@ Once you're ready to propose your changes, make a PR to this repo. [Material for
 
 ## License
 
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <http://creativecommons.org/licenses/by-sa/4.0/> or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.

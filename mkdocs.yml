@@ -1,21 +1,26 @@
-site_name: Mitosomat Dokumentation
-theme:
-  name: material
-  features:
-    - navigation.tracking
-    - navigation.sections
-  palette:
-      scheme: preference
-      primary: green
-      accent: red
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
+site_name: openSUSE Lessons
+site_url: https://lessons.openSUSE.com/
+site_author: openSUSE
+site_description: Learn openSUSE Your comprehensive guide to the open-source distribution.
+repo_name: openSUSE/lessons
+repo_url: https://github.com/openSUSE/lessons
+edit_uri: https://github.com/openSUSE/lessons/tree/main/docs
+copyright: Copyright (C) 2024 openSUSE contributors.
+
+nav:
+  - openSUSE Lessons: index.md
+  - Learn:
+      - Benefits of OSS: benefits-of-open-source-software.md
+  - Contribute:
+      - Contributing: contributing.md
+      - Code of Conduct: code_of_conduct.md
+      - License: license.md
+
+
 plugins:
   - with-pdf:
       author: openSUSE contributors
-      copyright: Copyright (C) 2021 openSUSE contributors.
+      copyright: Copyright (C) 2024 openSUSE contributors.
       cover: true
       cover_title: Linux Lesson Plan
       cover_subtitle: Free and Open Source Software
@@ -24,3 +29,45 @@ plugins:
       output_path: ./lesson-plan.pdf
       toc_title: Contents
       back_cover: false
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+theme:
+  name: "material"
+  icon:
+    edit: material/pencil
+  #logo: assets/opensuse-doc.png
+  #favicon: assets/opensuse-doc.png
+  #custom_dir: docs/theme
+  features:
+    - navigation.tracking
+    - content.code.copy
+    - content.action.edit
+    - content.tooltips
+    - content.code.annotate
+    - navigation.tabs
+    - navigation.sections
+
+  palette:
+    - scheme: default
+      primary: green
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+    features:
+      - content.code.copy
+      - content.code.annotate
