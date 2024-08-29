@@ -23,8 +23,8 @@
 * What the Internet Bug Bounty Teaches About Open-Source Software Security (<https://securityintelligence.com/articles/open-source-software-security-bug-bounty/>)
 * Choosing a License (<https://opensource.guide/starting-a-project/#choosing-a-license>)
 * Why do people open source their work? (<https://opensource.guide/starting-a-project/#why-do-people-open-source-their-work>)
-* How to Join an Open Source Community - <https://youtu.be/XyHSPjU2h10> 
-* Free Software or Open Source Software? Is There A Difference? - <https://youtu.be/Qyb5KZC7d6s> 
+* How to Join an Open Source Community - <https://youtu.be/XyHSPjU2h10>
+* Free Software or Open Source Software? Is There A Difference? - <https://youtu.be/Qyb5KZC7d6s>
 
 ## Extra Credit
 * Explain what <https://smile.amazon.com/> is about in less than 250 words.
@@ -40,15 +40,13 @@
 
 ## Evaluations
 * Does the student understand the concepts and objectives listed above?
-* Can the student communicate two benefits of why companies and developers choose free and open-source software? 
+* Can the student communicate two benefits of why companies and developers choose free and open-source software?
 * Can the student explain the advantages for the user of free and open-source software?
 * What are the benefits of open source standards and software to society?
 * Did the student contribute to an open-source project during this lesson.
 
 ## Notes:
-* Advance levels can view and discuss the following resources: EU Study about Open Source Impact - <https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and> 
+* Advance levels can view and discuss the following resources: EU Study about Open Source Impact - <https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and>
 * Presentation about results - <https://www.youtube.com/watch?v=ujp2dsfyOuQ>
 * The Linux Foundation panel about it - https://www.youtube.com/watch?v=gLLCYQSkcT4&list=PLbzoR-pLrL6q8QMGJ4dFnqejkHDm76kJV&index=193
 * Digital infrastructure is more than just broadband: What the US can learn from Europe’s open source technology policy study - <https://www.brookings.edu/research/digital-infrastructure-is-more-than-just-broadband-what-the-u-s-can-learn-from-europes-open-source-technology-policy-study/>
-
-

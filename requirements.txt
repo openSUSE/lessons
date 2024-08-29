@@ -2,4 +2,3 @@ mkdocs-material-extensions
 mkdocs-material
 mkdocs-with-pdf
 mkdocs
-

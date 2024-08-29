@@ -24,4 +24,3 @@ plugins:
       output_path: ./lesson-plan.pdf
       toc_title: Contents
       back_cover: false
-

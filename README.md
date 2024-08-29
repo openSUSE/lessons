@@ -16,7 +16,7 @@ The current build of the  PDF is avaliable in GitHub Actions. Visit https://gith
 5. You can now build the PDF document locally by running `ENABLE_PDF_EXPORT=1 pipenv run mkdocs build`
 
 ## Editing the sources
-Place new documents in the `/docs` directory using markdown files. 
+Place new documents in the `/docs` directory using markdown files.
 You can see your changes by running `ENABLE_PDF_EXPORT=1 pipenv run`.
 Once you're ready to propose your changes, make a PR to this repo. [Material for mkdocs](https://squidfunk.github.io/mkdocs-material/), [mkdocs](https://www.mkdocs.org/user-guide/writing-your-docs/) and [mkdocs with PDF](https://pypi.org/project/mkdocs-with-pdf/) documentation could also be useful.
 
