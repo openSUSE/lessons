@@ -1,4 +1,4 @@
-name: Generate pdf
+name: Generate PDF Develop
 on:
   push:
     branches: [ main ]
@@ -9,16 +9,16 @@ jobs:
     name: Generate pdf
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main
+      - name: Checkout main 🛠️
         uses: actions/checkout@v2
-      - name: Install requirementes
+      - name: Install requirements 📦
         run: "pip install -r requirements.txt"
-      - name: Build pdf
+      - name: Build PDF 📄
         env:
           ENABLE_PDF_EXPORT: 1
         run: "mkdocs build"
-      - name: Publish result
+      - name: Publish result 🚀
         uses: actions/upload-artifact@v2
         with:
           name: lesson-plan.pdf
-          path: ./site/lesson-plan.pdf
+          path: ./site/lesson-develop-plan.pdf
